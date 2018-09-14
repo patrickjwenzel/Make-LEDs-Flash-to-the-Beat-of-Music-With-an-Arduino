@@ -1,0 +1,12 @@
+1. Wire Arduino and Breadboard properly (Check Wiring)
+2. Make sure you have a sufficient power supply and the volts being outputted corresponds with how many volts your LEDs require to power.
+3. Connect the Arduino to your computer with your A to B USB cable (your computer should install its driver automatically).
+4. Download the Arduino Software Environment from here (https://www.arduino.cc/en/Main/Software) and extract it to a folder
+5. Download the Processing Software Environment from here (https://processing.org/download/) and extract it to a folder near your Arduino SE folder.
+6. Download the Arduino library for Processing from here, and copy (http://playground.arduino.cc/Interfacing/Processing) it into your Processing/libraries folder.
+7. Run the arduino.exe program in your Arduino SE folder.
+8. Go to File -> Examples -> Firmata -> StandardFirmata, and press the Upload button on the Arduino SE
+9. Wait a few seconds, until your RX/TX LEDs on your Arduino stop blinking (which means the Firmata firmware is installed).
+10. Open Processing (processing.exe), then open the ProjectCode.pde file in the ProjectCode folder.
+11. Edit the line of code "File f = new File(U:\\186Project\\Project\\data");". Instead of using ""U:\\186Project\\Project\\data"", use the name of your directory with the MP3 files in it.
+12. Hit the Run button on the top-left.
