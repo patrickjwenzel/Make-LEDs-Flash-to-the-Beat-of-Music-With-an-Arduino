@@ -1,0 +1,7 @@
+This is a project that I made in my CPRE 186 class with three other classmates. In this project, we used an Arduino for our hardware and
+for software we used a combination of Processing(in Java) and ArduinoIno(C/C++). In Processing, we made use of the Minim library, which
+is a library used for real-time audio analysis, and the Arduino Library, which allows us to send signals to the Arduino. For the Arduino, 
+we uploaded the axample file StandardFirmata. StandardFirmata is software that allows the Arduino itself to communicate with software that 
+is running on a host computer. For the Bluetooth version, we also used Processing and ArduinoINO. In Processing, we used almost the same 
+code but we had to import BluetoothSerial and use serialwrite instead of analogwrite. In the ArduinoINO code, we wrote our own code using 
+the Serial library and it took the signals coming in from the Processing code and turned it into usable data.
